@@ -1,0 +1,1 @@
+Queremos que cuando un usuario este autenticado en clerk usar server action que llamara a la API de stream desde el back, pase el usuario que inicio sesion y obtenga un token para que podamos reenviar a esta aplicacion de chat por lo que podemos crear un cliencte.

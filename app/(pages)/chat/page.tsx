@@ -11,17 +11,10 @@ async function Chat() {
 
   const userData = {
     id: user.id,
-    ...(user.fullName ? {name: user.fullName} : {}),
-    ...(user.imageUrl ? {image: user.imageUrl} : {})
+    ...(user.fullName ? { name: user.fullName } : {}),
+    ...(user.imageUrl ? { image: user.imageUrl } : {}),
   };
-  return (
-    <section className="py-24 ">
-      <div className="container">
-        <h1 className="text-3xl font-bold mb-4">Chat Page</h1>
-        <StreamChat userData={userData}/>
-      </div>
-    </section>
-  );
+  return <StreamChat userData={userData} />;
 }
 
 export default Chat;

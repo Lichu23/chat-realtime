@@ -32,7 +32,6 @@ export default function RootLayout({
       <html lang="en">
         <body
           className={cn(
-            "flex min-h-screen flex-col",
             geistSans.variable,
             geistMono.variable
           )}

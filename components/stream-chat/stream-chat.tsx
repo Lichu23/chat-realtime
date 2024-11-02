@@ -23,7 +23,6 @@ import {
   Window,
   useCreateChatClient,
   DefaultStreamChatGenerics,
-  Tooltip
 } from 'stream-chat-react'
 
 import { EmojiPicker } from 'stream-chat-react/emojis'
@@ -51,8 +50,7 @@ import { HomeIcon } from '@radix-ui/react-icons'
 
 import 'stream-chat-react/dist/css/v2/index.css'
 import createToken from '@/lib/actions'
-import { TooltipContent, TooltipProvider } from '../ui/tooltip'
-import { TooltipTrigger } from '@radix-ui/react-tooltip'
+import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip'
 
 interface StreamChatProps {
   userData: {

@@ -1,4 +1,4 @@
-import StreamChat from "@/components/stream-chat/StreamChat";
+import StreamChat from "@/components/stream-chat/stream-chat";
 import { currentUser } from "@clerk/nextjs/server";
 import React from "react";
 
